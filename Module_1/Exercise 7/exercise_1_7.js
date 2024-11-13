@@ -1,3 +1,5 @@
+'use strict';
+
 const roll_amount = Number(prompt('How many times do I roll the die?'));
 let roll_result = 0;
 let sum = 0;
