@@ -1,3 +1,5 @@
+'use strict';
+
 function roll_dice() {
   return Math.floor(Math.random() * 6) + 1;
 }

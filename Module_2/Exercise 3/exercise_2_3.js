@@ -1,9 +1,10 @@
-const dogs = []
+'use strict';
+
+const dogs = [];
 for (let i = 1; i <= 6; i++) {
   dogs.push(prompt('Give the name of ' + i + '.  dog: '));
 }
-dogs.sort().reverse()
-
+dogs.sort().reverse();
 
 const ul = document.createElement('ul');
 

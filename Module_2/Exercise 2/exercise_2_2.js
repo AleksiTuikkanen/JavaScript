@@ -1,5 +1,7 @@
+'use strict';
+
 const participants = [];
-how_many = prompt('How many participants?');
+const how_many = prompt('How many participants?');
 for (let i = 1; i <= how_many; i++) {
   participants.push(prompt('Give the ' + i + '.  participant: '));
 }
