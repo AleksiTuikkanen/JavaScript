@@ -1,5 +1,9 @@
 'use strict';
-let number = 3;
-number++;     // the value is now 4
-number--;     // the value is again 3
-console.log(number);
+let words = document.getElementsByTagName ('p')[0];
+const worldEnd = confirm('The world is ending');
+if (worldEnd) {
+  words.innerHTML = 'is nigh!'
+}
+else{
+  words.innerHTML = 'is not coming.';
+}
